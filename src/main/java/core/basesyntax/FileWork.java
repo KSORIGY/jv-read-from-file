@@ -18,7 +18,7 @@ public class FileWork {
             String[] splittedTextFromFile = stringBuilder.toString().toLowerCase().split("\\W+");
             StringBuilder builderResult = new StringBuilder();
             for (String word : splittedTextFromFile) {
-                if(word.startsWith("w")) {
+                if (word.startsWith("w")) {
                     builderResult.append(word).append(" ");
                 }
             }
